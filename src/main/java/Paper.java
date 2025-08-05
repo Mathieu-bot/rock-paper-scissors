@@ -1,5 +1,3 @@
-package com.example;
-
 public class Paper extends Move {
   @Override
   public String getName() {

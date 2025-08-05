@@ -1,5 +1,3 @@
-package com.example;
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -45,7 +43,7 @@ public class GameTest {
         return super.determineWinner(move1, move2);
       }
     };
-    assertEquals("Player e1 wins!", game.determineWinner(rock, scissors), "Player 1 should win when Rock beats Scissors");
+    assertEquals("Player 1 wins!", game.determineWinner(rock, scissors), "Player 1 should win when Rock beats Scissors");
   }
 
   @Test
